@@ -1,3 +1,3 @@
 Alunos: \
 Felipe Beppler Huller \
-Gustavo Schneider Rodrigues \
+Gustavo Schneider Rodrigues
