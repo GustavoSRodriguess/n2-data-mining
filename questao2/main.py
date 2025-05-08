@@ -14,8 +14,8 @@ def print_memory_usage():
 
 print("Loading data...")
 start_time_total = time.time()
-ratings = pd.read_csv('ratings.csv')
-movies = pd.read_csv('movies.csv')
+ratings = pd.read_csv('./questao2/ratings.csv')
+movies = pd.read_csv('./questao2/movies.csv')
 
 movies['genres_list'] = movies['genres'].str.split('|')
 genre_map = movies.explode('genres_list').groupby('title')['genres_list'].apply(list).to_dict()
